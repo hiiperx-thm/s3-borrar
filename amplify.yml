@@ -11,7 +11,7 @@ frontend:
         - git submodule update --init --recursive
     build:
       commands:
-        - "$HOME/.local/bin/hugo" --gc --minify
+        - '"$HOME/.local/bin/hugo" --gc --minify'
   artifacts:
     baseDirectory: public
     files:
