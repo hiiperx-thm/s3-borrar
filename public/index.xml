@@ -20,5 +20,12 @@
 				<guid>http://localhost:1313/posts/primer-post/</guid>
 				<description>&lt;h1 id=&#34;bienvenido-a-mi-página-web&#34;&gt;Bienvenido a mi página web&lt;/h1&gt;&#xA;&lt;p&gt;Este es mi primer artículo creado con Hugo y la plantilla Ananke.&lt;/p&gt;&#xA;&lt;p&gt;En esta práctica estoy aprendiendo a utilizar Hugo, GitHub,&#xA;AWS Amplify y Amazon S3 para publicar una página web estática.&lt;/p&gt;</description>
 			</item>
+			<item>
+				<title>Mi segundo post con Hugo</title>
+				<link>http://localhost:1313/posts/segundo-post/</link>
+				<pubDate>Tue, 10 Nov 2026 19:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/posts/segundo-post/</guid>
+				<description>&lt;h1 id=&#34;mi-segundo-artículo&#34;&gt;Mi segundo artículo&lt;/h1&gt;&#xA;&lt;p&gt;Este es el segundo artículo de mi práctica de AWS.&lt;/p&gt;&#xA;&lt;p&gt;He conseguido publicar mi página web utilizando Hugo,&#xA;GitHub y AWS Amplify.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>
