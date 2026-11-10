@@ -1,0 +1,17 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - curl -sL https://github.com/gohugoio/hugo/releases/download/v0.169.0/hugo_0.169.0_linux-amd64.tar.gz -o hugo.tar.gz
+        - tar -xzf hugo.tar.gz
+        - chmod +x hugo
+        - mv hugo /usr/local/bin/hugo
+        - git submodule update --init --recursive
+    build:
+      commands:
+        - hugo --gc --minify
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
