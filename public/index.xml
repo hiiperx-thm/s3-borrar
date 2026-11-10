@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Mi web</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Mi web</description>
+		<generator>Hugo</generator>
+		<language>es-es</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 10 Nov 2026 19:00:00 +0100</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Mi primer post con Hugo</title>
+				<link>http://localhost:1313/posts/primer-post/</link>
+				<pubDate>Tue, 10 Nov 2026 19:00:00 +0100</pubDate>
+				<guid>http://localhost:1313/posts/primer-post/</guid>
+				<description>&lt;h1 id=&#34;bienvenido-a-mi-página-web&#34;&gt;Bienvenido a mi página web&lt;/h1&gt;&#xA;&lt;p&gt;Este es mi primer artículo creado con Hugo y la plantilla Ananke.&lt;/p&gt;&#xA;&lt;p&gt;En esta práctica estoy aprendiendo a utilizar Hugo, GitHub,&#xA;AWS Amplify y Amazon S3 para publicar una página web estática.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

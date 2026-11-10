@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+locale = 'es-es'
+title = 'Mi web'
+theme = 'ananke'
